@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.whole{
+        width:800px;
+        height:600px;
+        margin-left:20vw;
+        margin-top :5vw;
+        background-color:#030333;
+}
+.head{
+        width: 630px;
+        height: 45px;
+        background-color: darkslateblue;
+        margin-left: 6vw;
+        border-radius: 5px;
+        
+}
+.img-logo{
+        margin-left:2vw;
+        width: 20%;
+        height: 90%;
+}
+.sun-btn{
+        background-color:darkslateblue;
+        margin-left: 68%;
+        border:none;
+        border-radius: 5px;
+        top: 10px;
+        width: 35px;     
+
+}
+.extension-list{
+        margin-left:6vw;
+        font-family:Arial;
+        color: aliceblue;
+        font-size: 12px;
+}
+.btn-container{
+        justify-content: flex-end;
+        gap: 10px;
+        display: flex;
+        margin-right: 90px;
+        margin-top: -20px;
+}
+.btn{
+        padding: 4px 8px;
+        font-size: 12px;
+        border-radius: 10px;
+       border: 0.1px solid rgb(130, 130, 131);
+        background-color: rgb(42, 38, 68);
+        color: aliceblue;
+}
+.dev-lens{
+background-color: cadetblue;
+width: 50;
+height: 50;
+}
+.style-spy{
+background-color: antiquewhite;
+}
+.speed-boost{
+background-color: darkolivegreen;
+}
