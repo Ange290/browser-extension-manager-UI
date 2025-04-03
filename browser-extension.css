@@ -17,6 +17,13 @@
         /* Gradients */
         --light-gradient: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
         --dark-gradient: linear-gradient(180deg, #040918 0%, #091540 100%);
+
+        --font-primary: 'Noto Sans', sans-serif;
+        --font-weight-normal: 400;
+        --font-weight-medium: 500;
+        --font-weight-bold: 700;
+
+
       }
       
 
@@ -145,6 +152,111 @@ body{
         margin-top:3vw; 
              
       }
+
+.logo-devlens{
+        margin-left:12px;
+        margin-top:10px;
+}
+  
+.div-devlens{
+        font-size:25px;
+       margin-left:6vw;
+        margin-bottom:10px;
+        margin-top:-50px;
+}
+.text-devlens{
+        font-family:var(--font-primary);
+        margin-top:-50px;
+       
+}
+.p-devlens{
+        font-size:15px;
+        font-family:var(--font-primary);
+        color: rgb(130, 130, 131);
+        margin-top:1vw;
+}
+.btn-devlens{
+        margin-left:1vw;
+        margin-top:2vw;
+        background-color: var(--neutral-700);
+        width:90px;
+        height:40px;
+        font-size:15px;
+        border: 0.1px solid rgb(130, 130, 131);
+        border-radius:20px;
+        color: var(--light-gradient);
+}
+
+
+.logo-spy{
+        margin-left:-18vw;
+        margin-top:10px;
+}
+.div-spy{
+        font-size:25px;
       
+        margin-bottom:10px;
+        margin-top:-50px;
+}
+.text-spy{
+        font-family:var(--font-primary);
+        margin-top:-50px;
+       margin-left:-5vw;
+}
+.p-spy{
+        font-size:15px;
+        font-family:var(--font-primary);
+        color: rgb(130, 130, 131);
+        margin-top:1vw;
+        margin-left:68px;
+        text-align:left;
+}
+.btn-spy{
+        margin-left:-14.5vw;
+        margin-top:2vw;
+        background-color: var(--neutral-700);
+        width:90px;
+        height:40px;
+        font-size:15px;
+        border: 0.1px solid rgb(130, 130, 131);
+        border-radius:20px;
+        color: var(--light-gradient);
+}
+
+.logo-speed{
+        margin-right:18.5vw;
+        margin-top:10px;
+}
+.div-speed{
+        font-size:25px;
       
+        margin-bottom:10px;
+        margin-top:-50px;
+}
+.text-speed{
+        font-family:var(--font-primary);
+        margin-top:-50px;
+       margin-right:6.5vw;
+}
+.p-speed{
+        font-size:15px;
+        font-family:var(--font-primary);
+        color: rgb(130, 130, 131);
+        margin-top:1vw;
+        margin-left:78px;
+        text-align:left;
+        
+}
+.btn-speed{
+        margin-right:15.5vw;
+        margin-top:2vw;
+        background-color: var(--neutral-700);
+        width:90px;
+        height:40px;
+        font-size:15px;
+        border: 0.1px solid rgb(130, 130, 131);
+        border-radius:20px;
+        color: var(--light-gradient);
+}
+  
       
